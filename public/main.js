@@ -10,7 +10,7 @@ $(document).ready(function() {
     var addMessage = function(message) {
         messages.append('<div>' + message + '</div>');
     };
-
+    var nickname;
     //Create username
     socket.on('connect', function(data){
         function setUsername () {
