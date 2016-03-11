@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BuzzMe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/shortcut-icon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Pacifico' rel='stylesheet' type='text/css'>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans|Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div class="login-form">
+    	<h2 class="title">What's your nickname?</h2>
+    	<input class="usernameInput" placeholder="|" type="text" maxlength="14" />
+	</div>
+
+
+<div class="container-fluid wrapper">
+	<div class="row">
+		<div class="container">
+			<div class="col-sm-9" id="left">
+			<div class="text-center" id="header">
+				<h3>BuzzMe Chat</h3>
+			</div>
+			<div class="main">
+				<div id="chat">
+					<div id="messages"></div>
+				</div>
+				<div id="input">
+					<input type="text" class="form-control msgInput" id="focusedInput" style="height:4em;background: rgba(255, 255, 255, 0.5);" type="text" placeholder="Type your message here...">
+				</div>				
+			</div>
+		</div>
+		<div class="col-sm-3 text-center" id="users">
+			<h3>Online users</h3>
+			<div id='usersDiv'></div>
+		</div>
+		</div>
+	</div>
+</div>
+	
+	
+	<!-- JS -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="//code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="main.js"></script> 
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: -webkit-linear-gradient(240deg, #1E17BE,#BF11A8);
+  background: -o-linear-gradient(240deg, #1E17BE, #BF11A8);
+  background: linear-gradient(330deg, #1E17BE, #BF11A8);
+}
+.wrapper{
+	display:none;
+}
+#left{
+	margin: 0 0;
+	padding: 0 0;
+	padding-top: 3em;
+}
+.main{
+	background: rgba(255, 255, 255, 0.65);
+	box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+	border-radius: 0.2em;
+	position: relative;
+	margin-top: 2em;
+	height:60vh;
+}
+#users{
+	margin:0 0;
+	padding:0 0;
+	padding-top: 2em;
+	vertical-align: scroll;
+	font-family: 'Bubblegum Sans', cursive;
+}
+#usersDiv{
+	margin-top:1em;
+	color:#fff;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+#chat{
+	padding:3em 3em;
+	vertical-align: scroll;
+	font-family: 'Poiret One', cursive;
+	font-size:1.5em;
+	vertical-align: scroll;
+	color:#000;
+}
+#input{
+	padding:2em 1em;
+	font-family: 'Poiret One', cursive;
+}
+body h3{
+	color:#fff;
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 3em;
+}
+body h2{
+	color:#000;
+	font-family: 'Poiret One', cursive;
+}
+.form-control{
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	border: none;
+  	width: 75%;
+  	outline: none;
+  	font-weight: 300;
+}
+.me{
+	color:#FF001D;
+	font-family: 'Poiret One', cursive;
+}
+.user{
+	color:#005C22;
+	font-family: 'Poiret One', cursive;
+}
+
+.login-form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  background:transparent;
+}
+
+.login-form .usernameInput {
+  background-color:transparent;
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 400px;
+}
+.title {
+  font-size: 200%;
+}
+.usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.title, .usernameInput {
+  color: #000;
+  font-weight: 100;
+}
