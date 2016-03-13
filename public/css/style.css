@@ -39,10 +39,9 @@ body{
 }
 #chat{
 	padding:3em 3em;
-	vertical-align: scroll;
 	font-family: 'Poiret One', cursive;
 	font-size:1.5em;
-	vertical-align: scroll;
+	overflow-y: scroll;
 	color:#000;
 }
 #input{
